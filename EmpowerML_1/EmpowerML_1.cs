@@ -56,7 +56,7 @@ namespace EmpowerML_1
 	using System.Globalization;
 	using System.Text;
 	using Skyline.DataMiner.Automation;
-	
+
 	/// <summary>
 	/// Represents a DataMiner Automation script.
 	/// </summary>
@@ -69,6 +69,7 @@ namespace EmpowerML_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello world!");
+			//changes
 		}
 	}
 }
